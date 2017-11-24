@@ -2,75 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on The Scrum DAO</title>
-    <link>https://devorchestra.github.io/the-scrum-dao/post/</link>
+    <link>https://devorchestra.github.io/the-scrum-dao-site/post/</link>
     <description>Recent content in Posts on The Scrum DAO</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 22 Nov 2017 20:49:35 +0300</lastBuildDate>
     
-	<atom:link href="https://devorchestra.github.io/the-scrum-dao/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://devorchestra.github.io/the-scrum-dao-site/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://devorchestra.github.io/the-scrum-dao/post/table-of-contents/</link>
+      <link>https://devorchestra.github.io/the-scrum-dao-site/post/table-of-contents/</link>
       <pubDate>Wed, 22 Nov 2017 20:49:35 +0300</pubDate>
       
-      <guid>https://devorchestra.github.io/the-scrum-dao/post/table-of-contents/</guid>
+      <guid>https://devorchestra.github.io/the-scrum-dao-site/post/table-of-contents/</guid>
       <description> Table of Contents  The Scrum DAO  Concept Integrations Main Scenario  QuickStart Oracle Project Contract PlanningPoker Contract ProductBacklog Contract Crowdsale Contract  </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://devorchestra.github.io/the-scrum-dao/post/concept/</link>
+      <link>https://devorchestra.github.io/the-scrum-dao-site/post/concept/</link>
       <pubDate>Wed, 22 Nov 2017 20:52:19 +0300</pubDate>
       
-      <guid>https://devorchestra.github.io/the-scrum-dao/post/concept/</guid>
+      <guid>https://devorchestra.github.io/the-scrum-dao-site/post/concept/</guid>
       <description>Concept The Scrum DAO it&amp;#39;s an attempt to combine flexible software development methodology (Scrum) and Decentralized Autonomous Organizations (DAO).
 We also want to offer a new approach to ICO to prevent over-inflating budget and greater involvement of investors in the development process. The idea is very simple - emit new tokens when some portion of work has been done and approved.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://devorchestra.github.io/the-scrum-dao/post/integrations/</link>
+      <link>https://devorchestra.github.io/the-scrum-dao-site/post/integrations/</link>
       <pubDate>Wed, 22 Nov 2017 20:54:30 +0300</pubDate>
       
-      <guid>https://devorchestra.github.io/the-scrum-dao/post/integrations/</guid>
+      <guid>https://devorchestra.github.io/the-scrum-dao-site/post/integrations/</guid>
       <description>Integrations In our plans do integration with most popular project management systems, eg JIRA, Github. In our projects we use JIRA and very like it, so we started with it.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://devorchestra.github.io/the-scrum-dao/post/main-scenario/</link>
+      <link>https://devorchestra.github.io/the-scrum-dao-site/post/main-scenario/</link>
       <pubDate>Wed, 22 Nov 2017 21:13:24 +0300</pubDate>
       
-      <guid>https://devorchestra.github.io/the-scrum-dao/post/main-scenario/</guid>
+      <guid>https://devorchestra.github.io/the-scrum-dao-site/post/main-scenario/</guid>
       <description>Main Scenario  Project Owner deploys contracts and adds Workers. When Issue created TrustedOracle(not Owner) push new votings to ProductBacklog and PlanningPoker Contracts. Any token Holders can vote for issue&amp;rsquo;s priority in the ProductBacklog. Workers play in a PlanningPoker and vote for issue&amp;rsquo;s story points. When Issue closed Worker get an award which depends on issue&amp;rsquo;s story points. Worker put sell order in the Crowdsale contract. Investor pays ETH to buy Tokens.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://devorchestra.github.io/the-scrum-dao/post/quick-start/</link>
+      <link>https://devorchestra.github.io/the-scrum-dao-site/post/quick-start/</link>
       <pubDate>Wed, 22 Nov 2017 21:16:17 +0300</pubDate>
       
-      <guid>https://devorchestra.github.io/the-scrum-dao/post/quick-start/</guid>
+      <guid>https://devorchestra.github.io/the-scrum-dao-site/post/quick-start/</guid>
       <description> QuickStart </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://devorchestra.github.io/the-scrum-dao/post/oracle/</link>
+      <link>https://devorchestra.github.io/the-scrum-dao-site/post/oracle/</link>
       <pubDate>Wed, 22 Nov 2017 21:17:54 +0300</pubDate>
       
-      <guid>https://devorchestra.github.io/the-scrum-dao/post/oracle/</guid>
+      <guid>https://devorchestra.github.io/the-scrum-dao-site/post/oracle/</guid>
       <description> Oracle </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://devorchestra.github.io/the-scrum-dao/post/project-contract/</link>
+      <link>https://devorchestra.github.io/the-scrum-dao-site/post/project-contract/</link>
       <pubDate>Wed, 22 Nov 2017 21:19:12 +0300</pubDate>
       
-      <guid>https://devorchestra.github.io/the-scrum-dao/post/project-contract/</guid>
+      <guid>https://devorchestra.github.io/the-scrum-dao-site/post/project-contract/</guid>
       <description>Project Contract The main contract implements ERC20 interface. New Tokens generate only when some work has been done and represent the contribution of each participant.
 Project Owner deploys contracts, link all of them to Project contract and add Workers
 struct Worker { address _address; string username; //JIRA username }  Owner also initializes trustedOracle account, which can call payAward function. This is done for security purposes because oracle private key stored on the server and can be compromised but with this separations, it&amp;rsquo;s not critical.</description>
@@ -78,29 +78,29 @@ struct Worker { address _address; string username; //JIRA username }  Owner also
     
     <item>
       <title></title>
-      <link>https://devorchestra.github.io/the-scrum-dao/post/planning-poker-contract/</link>
+      <link>https://devorchestra.github.io/the-scrum-dao-site/post/planning-poker-contract/</link>
       <pubDate>Wed, 22 Nov 2017 21:20:58 +0300</pubDate>
       
-      <guid>https://devorchestra.github.io/the-scrum-dao/post/planning-poker-contract/</guid>
+      <guid>https://devorchestra.github.io/the-scrum-dao-site/post/planning-poker-contract/</guid>
       <description> PlanningPoker Contract Planning Poker is the main concept of scrum methodology. Team members estimate tasks and the finalaverage result represents the award amount. When a new task added to a project management tool trustedOracle initializes new voting:
 struct Voting { string issue; uint votesCount; uint sum; bool isValid; bool isOpen; bool awardPaid; mapping (address =&amp;gt; uint) votes; }  </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://devorchestra.github.io/the-scrum-dao/post/product-backlog-contract/</link>
+      <link>https://devorchestra.github.io/the-scrum-dao-site/post/product-backlog-contract/</link>
       <pubDate>Wed, 22 Nov 2017 21:22:20 +0300</pubDate>
       
-      <guid>https://devorchestra.github.io/the-scrum-dao/post/product-backlog-contract/</guid>
+      <guid>https://devorchestra.github.io/the-scrum-dao-site/post/product-backlog-contract/</guid>
       <description>ProductBacklog Contract Very similar to PlanningPoker. The first difference is any Tokens Holder can vote. The second is the weight of a vote depends on Holder&amp;rsquo;s balance and the final result is calculated as a percentage of the total supply of Tokens.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://devorchestra.github.io/the-scrum-dao/post/crowdsale-contract/</link>
+      <link>https://devorchestra.github.io/the-scrum-dao-site/post/crowdsale-contract/</link>
       <pubDate>Wed, 22 Nov 2017 21:23:33 +0300</pubDate>
       
-      <guid>https://devorchestra.github.io/the-scrum-dao/post/crowdsale-contract/</guid>
+      <guid>https://devorchestra.github.io/the-scrum-dao-site/post/crowdsale-contract/</guid>
       <description> Crowdsale Contract This contract allows Workers to sell the earned Tokens to anyone. It works like usual order book but with some limitations:
  You should fully fill order You can fill one order per transaction Cancel an order take some time  </description>
     </item>

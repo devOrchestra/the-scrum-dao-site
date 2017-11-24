@@ -1,4 +1,4 @@
-baseurl = "https://devorchestra.github.io/the-scrum-dao/"
+baseurl = "https://devorchestra.github.io/the-scrum-dao-site/"
 title = "The Scrum DAO"
 themesDir = "themes"
 theme = "github"
