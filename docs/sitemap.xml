@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://devorchestra.github.io/the-scrum-dao-site/post/table-of-contents/</loc>
+    <lastmod>2017-11-22T20:49:35+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devorchestra.github.io/the-scrum-dao-site/post/overview/</loc>
+    <lastmod>2017-11-22T20:52:19+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devorchestra.github.io/the-scrum-dao-site/post/quick-start/</loc>
+    <lastmod>2017-11-22T21:16:17+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devorchestra.github.io/the-scrum-dao-site/post/structure/</loc>
+    <lastmod>2017-11-22T21:17:54+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devorchestra.github.io/the-scrum-dao-site/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devorchestra.github.io/the-scrum-dao-site/post/</loc>
+    <lastmod>2017-11-22T20:49:35+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devorchestra.github.io/the-scrum-dao-site/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devorchestra.github.io/the-scrum-dao-site/</loc>
+    <lastmod>2017-11-22T20:49:35+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
