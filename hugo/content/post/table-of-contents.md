@@ -7,13 +7,14 @@ weight: 1
 
 ## Table of Contents
 
-- [The Scrum DAO]({{<ref "#table-of-contents" >}})
+- [Overview]({{<ref "#table-of-contents" >}})
     - [Concept]({{<ref "#concept" >}})
     - [Integrations]({{<ref "#integrations" >}})
     - [Main Scenario]({{<ref "#main-scenario" >}})
 - [QuickStart]({{<ref "#quickstart" >}})
-- [Oracle]({{<ref "#oracle" >}})
-- [Project Contract]({{<ref "#project-contract" >}})
-- [PlanningPoker Contract]({{<ref "#planningpoker-contract" >}})
-- [ProductBacklog Contract]({{<ref "#productbacklog-contract" >}})
-- [Crowdsale Contract]({{<ref "#crowdsale-contract" >}})
+- [Project Structure]({{<ref "#oracle" >}})
+    - [Oracle]({{<ref "#oracle" >}})
+    - [Project Contract]({{<ref "#project-contract" >}})
+    - [PlanningPoker Contract]({{<ref "#planningpoker-contract" >}})
+    - [ProductBacklog Contract]({{<ref "#productbacklog-contract" >}})
+    - [Crowdsale Contract]({{<ref "#crowdsale-contract" >}})

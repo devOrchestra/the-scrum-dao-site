@@ -340,7 +340,50 @@ p.copyright {
             <h2 class="section-heading"></h2>
             
 
+<h1 id="project-structure">Project Structure</h1>
+
+<hr />
+
+<p><img src="http://devorchestra.io/assets/images/presentation/scrum-dao-scheme.jpg" alt="" /></p>
+
+<h2 id="main-scenario">Main Scenario</h2>
+
+<hr />
+
+<ul>
+<li>Project Owner deploys contracts and adds Workers.</li>
+<li>When Issue created in the PM TrustedOracle(not Owner) push new votings to ProductBacklog and PlanningPoker Contracts.</li>
+<li>Any token Holders can vote for issue&rsquo;s priority in the ProductBacklog.</li>
+<li>Workers play in a PlanningPoker and vote for issue&rsquo;s story points.</li>
+<li>When Issue closed Worker get an award which depends on issue&rsquo;s story points.</li>
+<li>Worker put sell order in the Crowdsale contract.</li>
+<li>Investor pays ETH to buy Tokens.</li>
+<li>Investor now can vote to issue&rsquo;s priority and expect part of a future company&rsquo;s profits.</li>
+</ul>
+
+<h2 id="oracle">Oracle</h2>
+
+<hr />
+
+<h2 id="project-contract">Project Contract</h2>
+
+<hr />
+
+<p>The main contract implements the ERC20 interface. New Tokens generate only when some work has been done and represent the contribution of each participant.</p>
+
+<p>Project Owner deploys contracts, link all of them to Project contract and add Workers</p>
+
+<pre><code>struct Worker {
+  address _address;
+  string username;   //JIRA username
+}
+</code></pre>
+
+<p>Owner also initializes trustedOracle account, which can call payAward function. This is done for security purposes because oracle private key stored on the server and can be compromised but with this separations, it&rsquo;s not critical.</p>
+
 <h2 id="planningpoker-contract">PlanningPoker Contract</h2>
+
+<hr />
 
 <p>Planning Poker is the main concept of scrum methodology. Team members estimate tasks and the finalaverage result represents the award amount. When a new task added to a project management tool trustedOracle initializes new voting:</p>
 
@@ -354,6 +397,23 @@ p.copyright {
   mapping (address =&gt; uint) votes;
 }
 </code></pre>
+
+<h2 id="productbacklog-contract">ProductBacklog Contract</h2>
+
+<hr />
+
+<p>Very similar to PlanningPoker. The first difference is any Tokens Holder can vote. The second is the weight of a vote depends on Holder&rsquo;s balance and the final result is calculated as a percentage of the total supply of Tokens.</p>
+
+<h2 id="crowdsale-contract">Crowdsale Contract</h2>
+
+<hr />
+
+<p>This contract allows Workers to sell earned Tokens to anyone. It works like usual order book but with some limitations:</p>
+
+<ul>
+<li>You should fully fill existing order</li>
+<li>You can fill only one order per transaction</li>
+</ul>
 
         </div>
     </div>
