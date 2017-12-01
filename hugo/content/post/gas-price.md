@@ -9,6 +9,18 @@ weight: 5
 -------------
 
 &nbsp;
+## Deploy Contract price
+
+| Method           | Gas           |
+| -------------    | ------------- |
+| `migrations`     | 269607        |
+| `project`        | 3001382       |
+| `planningPoker`  | 1613396       |
+| `productBacklog` | 1398455       |
+| `crowdsale`      | 1716665       |
+| **Total amount** | ~8*10^6       |
+
+&nbsp;
 ## Project Contract price
 
 | Method                    | Info                        | Gas           |

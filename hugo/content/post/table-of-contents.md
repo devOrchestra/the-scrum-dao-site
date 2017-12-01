@@ -19,6 +19,7 @@ weight: 1
     - [ProductBacklog Contract]({{<ref "#productbacklog-contract" >}})
     - [Crowdsale Contract]({{<ref "#crowdsale-contract" >}})
 - [Gas price]({{<ref "#gas-price" >}})
+    - [Deploy Contract price]({{<ref "#deploy-contract-price" >}})
     - [Project Contract price]({{<ref "#project-contract-price" >}})
     - [PlanningPoker Contract price]({{<ref "#planningpoker-contract-price" >}})
     - [ProductBacklog Contract price]({{<ref "#productbacklog-contract-price" >}})
