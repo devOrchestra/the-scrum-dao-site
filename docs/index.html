@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="generator" content="Hugo 0.31" />
+	<meta name="generator" content="Hugo 0.31.1" />
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -291,6 +291,12 @@ p.copyright {
 .github-btn {
     margin-top: 10px;
 }
+
+th,
+td {
+    padding: 6px 13px;
+    border: 1px solid #dfe2e5;
+}
   </style>
 
 </head>
@@ -395,6 +401,14 @@ p.copyright {
 <li><a href="#planningpoker-contract">PlanningPoker Contract</a></li>
 <li><a href="#productbacklog-contract">ProductBacklog Contract</a></li>
 <li><a href="#crowdsale-contract">Crowdsale Contract</a></li>
+</ul></li>
+<li><a href="#gas-price">Gas price</a>
+
+<ul>
+<li><a href="#project-contract-price">Project Contract price</a></li>
+<li><a href="#planningpoker-contract-price">PlanningPoker Contract price</a></li>
+<li><a href="#productbacklog-contract-price">ProductBacklog Contract price</a></li>
+<li><a href="#crowdsale-contract-price">Crowdsale Contract price</a></li>
 </ul></li>
 </ul>
 
@@ -552,6 +566,241 @@ The project capitalisation grows smoothly in parallel with features implementati
 <li>You should fully fill existing order</li>
 <li>You can fill only one order per transaction</li>
 </ul>
+
+                </div>
+            </div>
+
+        </div>
+        
+
+    </div>
+
+    
+    <div class="content-section-a">
+    
+
+        <div class="container">
+
+            <div class="row">
+                <div>
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading"></h2>
+                    
+
+<h1 id="gas-price">Gas price</h1>
+
+<hr />
+
+<p>&nbsp;</p>
+
+<h2 id="project-contract-price">Project Contract price</h2>
+
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Info</th>
+<th>Gas</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><code>addTrustedOracle</code></td>
+<td></td>
+<td>43437</td>
+</tr>
+
+<tr>
+<td><code>addWorker</code></td>
+<td>Add first worker</td>
+<td>106889</td>
+</tr>
+
+<tr>
+<td><code>addWorker</code></td>
+<td>Add not first worker</td>
+<td>91889</td>
+</tr>
+
+<tr>
+<td><code>initCrowdsale</code></td>
+<td>First call</td>
+<td>63814</td>
+</tr>
+
+<tr>
+<td><code>initCrowdsale</code></td>
+<td>Not first call</td>
+<td>33814</td>
+</tr>
+
+<tr>
+<td><code>initPlanningPoker</code></td>
+<td></td>
+<td>43965</td>
+</tr>
+
+<tr>
+<td><code>payAward</code></td>
+<td></td>
+<td>80881</td>
+</tr>
+
+<tr>
+<td><code>transfer</code> &amp;&amp; <code>addHolder</code></td>
+<td>Add first holder</td>
+<td>93010</td>
+</tr>
+
+<tr>
+<td><code>transfer</code> &amp;&amp; <code>addHolder</code></td>
+<td>Add not first holder</td>
+<td>78010</td>
+</tr>
+
+<tr>
+<td><code>transfer</code></td>
+<td>Recipient is a holder</td>
+<td>37031</td>
+</tr>
+</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<h2 id="planningpoker-contract-price">PlanningPoker Contract price</h2>
+
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Gas</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><code>addVoting</code></td>
+<td>84651</td>
+</tr>
+
+<tr>
+<td><code>closeVoting</code></td>
+<td>28568</td>
+</tr>
+
+<tr>
+<td><code>vote</code> &amp;&amp; <code>addVoting</code></td>
+<td>92645</td>
+</tr>
+
+<tr>
+<td><code>vote</code></td>
+<td>42808</td>
+</tr>
+</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<h2 id="productbacklog-contract-price">ProductBacklog Contract price</h2>
+
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Gas</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><code>addVoting</code></td>
+<td>54286</td>
+</tr>
+
+<tr>
+<td><code>closeVoting</code></td>
+<td>28502</td>
+</tr>
+
+<tr>
+<td><code>vote</code> &amp;&amp; <code>addVoting</code></td>
+<td>151383</td>
+</tr>
+
+<tr>
+<td><code>vote</code></td>
+<td>94758</td>
+</tr>
+</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<h2 id="crowdsale-contract-price">Crowdsale Contract price</h2>
+
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Info</th>
+<th>Gas</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><code>addBuyOrder</code></td>
+<td></td>
+<td>129224</td>
+</tr>
+
+<tr>
+<td><code>addSellOrder</code></td>
+<td>First sell order</td>
+<td>161318</td>
+</tr>
+
+<tr>
+<td><code>addSellOrder</code></td>
+<td>Not first sell order</td>
+<td>146318</td>
+</tr>
+
+<tr>
+<td><code>buy</code></td>
+<td></td>
+<td>37106</td>
+</tr>
+
+<tr>
+<td><code>closeBuyOrder</code></td>
+<td></td>
+<td>21512</td>
+</tr>
+
+<tr>
+<td><code>closeSellOrder</code></td>
+<td>First closed sell order</td>
+<td>28699</td>
+</tr>
+
+<tr>
+<td><code>closeSellOrder</code></td>
+<td>Not first closed sell order</td>
+<td>21850</td>
+</tr>
+
+<tr>
+<td><code>sell</code></td>
+<td></td>
+<td>57381</td>
+</tr>
+</tbody>
+</table>
 
                 </div>
             </div>

@@ -16,7 +16,7 @@
       <pubDate>Wed, 22 Nov 2017 20:49:35 +0300</pubDate>
       
       <guid>https://devorchestra.github.io/the-scrum-dao-site/post/table-of-contents/</guid>
-      <description> Table of Contents  Overview  Concept Integrations Main Scenario  QuickStart Project Structure  Oracle Project Contract PlanningPoker Contract ProductBacklog Contract Crowdsale Contract   </description>
+      <description> Table of Contents  Overview  Concept Integrations Main Scenario  QuickStart Project Structure  Oracle Project Contract PlanningPoker Contract ProductBacklog Contract Crowdsale Contract  Gas price  Project Contract price PlanningPoker Contract price ProductBacklog Contract price Crowdsale Contract price   </description>
     </item>
     
     <item>
@@ -45,6 +45,16 @@ We also want to offer a new approach to ICO to prevent over-inflating budget and
       
       <guid>https://devorchestra.github.io/the-scrum-dao-site/post/structure/</guid>
       <description>Project Structure Main Scenario  Project Owner deploys contracts and adds Workers. When Issue created in the PM TrustedOracle(not Owner) push new votings to ProductBacklog and PlanningPoker Contracts. Any token Holders can vote for issue&amp;rsquo;s priority in the ProductBacklog. Workers play in a PlanningPoker and vote for issue&amp;rsquo;s story points. When Issue closed Worker get an award which depends on issue&amp;rsquo;s story points. Worker put sell order in the Crowdsale contract.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://devorchestra.github.io/the-scrum-dao-site/post/gas-price/</link>
+      <pubDate>Wed, 29 Nov 2017 14:17:43 +0300</pubDate>
+      
+      <guid>https://devorchestra.github.io/the-scrum-dao-site/post/gas-price/</guid>
+      <description>Gas price &amp;nbsp;
+Project Contract price    Method Info Gas     addTrustedOracle  43437   addWorker Add first worker 106889   addWorker Add not first worker 91889   initCrowdsale First call 63814   initCrowdsale Not first call 33814   initPlanningPoker  43965   payAward  80881   transfer &amp;amp;&amp;amp; addHolder Add first holder 93010   transfer &amp;amp;&amp;amp; addHolder Add not first holder 78010   transfer Recipient is a holder 37031    &amp;nbsp;</description>
     </item>
     
   </channel>
