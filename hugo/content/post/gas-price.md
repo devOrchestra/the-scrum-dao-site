@@ -13,11 +13,11 @@ weight: 5
 
 | Method           | Gas           |
 | -------------    | ------------- |
+| `crowdsale`      | 1716665       |
 | `migrations`     | 269607        |
-| `project`        | 3001382       |
 | `planningPoker`  | 1613396       |
 | `productBacklog` | 1398455       |
-| `crowdsale`      | 1716665       |
+| `project`        | 3001382       |
 | **Total amount** | ~8*10^6       |
 
 &nbsp;

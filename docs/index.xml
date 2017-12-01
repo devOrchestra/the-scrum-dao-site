@@ -54,7 +54,7 @@ We also want to offer a new approach to ICO to prevent over-inflating budget and
       
       <guid>https://devorchestra.github.io/the-scrum-dao-site/post/gas-price/</guid>
       <description>Gas price &amp;nbsp;
-Deploy Contract price    Method Gas     migrations 269607   project 3001382   planningPoker 1613396   productBacklog 1398455   crowdsale 1716665   Total amount ~8*10^6    &amp;nbsp;
+Deploy Contract price    Method Gas     crowdsale 1716665   migrations 269607   planningPoker 1613396   productBacklog 1398455   project 3001382   Total amount ~8*10^6    &amp;nbsp;
 Project Contract price    Method Info Gas     addTrustedOracle  43437   addWorker Add first worker 106889   addWorker Add not first worker 91889   initCrowdsale First call 63814   initCrowdsale Not first call 33814   initPlanningPoker  43965   payAward  80881   transfer &amp;amp;&amp;amp; addHolder Add first holder 93010   transfer &amp;amp;&amp;amp; addHolder Add not first holder 78010   transfer Recipient is a holder 37031    &amp;nbsp;</description>
     </item>
     
