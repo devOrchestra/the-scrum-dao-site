@@ -16,7 +16,16 @@
       <pubDate>Wed, 22 Nov 2017 20:49:35 +0300</pubDate>
       
       <guid>https://devorchestra.github.io/the-scrum-dao-site/post/table-of-contents/</guid>
-      <description> Table of Contents  Overview  Concept Integrations Main Scenario  QuickStart Project Structure  Oracle Project Contract PlanningPoker Contract ProductBacklog Contract Crowdsale Contract  Gas price  Deploy Contract price Project Contract price PlanningPoker Contract price ProductBacklog Contract price Crowdsale Contract price   </description>
+      <description> Table of Contents  References Problem Statement  Pump and Dump Schemes The ICO Bubble Lack of Investor Participation  Our Solution  Concept The Scrum DAO Ecosystem Smart Contracts Protocol  Project Contract PlanningPoker Contract ProductBacklog Contract Crowdsale Contract   Applications  An alternative to ICOs Development of open source projects The distribution of shares among founders Rewarding employees  Conclusion  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://devorchestra.github.io/the-scrum-dao-site/post/references/</link>
+      <pubDate>Wed, 22 Nov 2017 20:52:19 +0300</pubDate>
+      
+      <guid>https://devorchestra.github.io/the-scrum-dao-site/post/references/</guid>
+      <description> References  scrumdao.com - Live demo Jira board - Join our development Telegram chat - Join discussion devorchestra.io - Our team&amp;rsquo;s website  </description>
     </item>
     
     <item>
@@ -25,37 +34,37 @@
       <pubDate>Wed, 22 Nov 2017 20:52:19 +0300</pubDate>
       
       <guid>https://devorchestra.github.io/the-scrum-dao-site/post/overview/</guid>
-      <description>Concept The Scrum DAO it&amp;#39;s an attempt to combine flexible software development methodology (Scrum) and Decentralized Autonomous Organizations (DAO).
-We also want to offer a new approach to ICO to prevent over-inflating budget and greater involvement of investors in the development process. The idea is very simple - emit new tokens when some portion of work has been done and approved. The project capitalisation grows smoothly in parallel with features implementation and investors doesn&amp;rsquo;t pay just for hype</description>
+      <description>Problem Statement It is true that in 2017, ICOs have become the chief crowdfunding means of choice for many startups. Many entrepreneurs instead of going through the many regulatory bottlenecks associated with IPOs and other mainstream venture capital activities now seem to prefer to go via the ICO route. Developers are introducing business models and concepts almost on a daily basis in order to take advantage of the popularity of the market.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://devorchestra.github.io/the-scrum-dao-site/post/quick-start/</link>
-      <pubDate>Wed, 22 Nov 2017 21:16:17 +0300</pubDate>
+      <link>https://devorchestra.github.io/the-scrum-dao-site/post/solution/</link>
+      <pubDate>Wed, 22 Nov 2017 20:52:19 +0300</pubDate>
       
-      <guid>https://devorchestra.github.io/the-scrum-dao-site/post/quick-start/</guid>
-      <description> QuickStart </description>
+      <guid>https://devorchestra.github.io/the-scrum-dao-site/post/solution/</guid>
+      <description>Our Solution With the number of ICO failures that have been recorded and the many faults inherent in the system, it is clearly apparent that an alternative approach is needed. The Scrum DAO offers an elegant and effective alternative to ICOs by combining our flexible software development methodology with a well-structured DAO framework.
+Concept In the Scrum DAO, all the stakeholders in the development process are brought together under one entity which allows for greater interaction between investors and developers.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://devorchestra.github.io/the-scrum-dao-site/post/structure/</link>
+      <link>https://devorchestra.github.io/the-scrum-dao-site/post/applications/</link>
       <pubDate>Wed, 22 Nov 2017 21:17:54 +0300</pubDate>
       
-      <guid>https://devorchestra.github.io/the-scrum-dao-site/post/structure/</guid>
-      <description>Project Structure Main Scenario  Project Owner deploys contracts and adds Workers. When Issue created in the PM TrustedOracle(not Owner) push new votings to ProductBacklog and PlanningPoker Contracts. Any token Holders can vote for issue&amp;rsquo;s priority in the ProductBacklog. Workers play in a PlanningPoker and vote for issue&amp;rsquo;s story points. When Issue closed Worker get an award which depends on issue&amp;rsquo;s story points. Worker put sell order in the Crowdsale contract.</description>
+      <guid>https://devorchestra.github.io/the-scrum-dao-site/post/applications/</guid>
+      <description>Applications There are a number of potential applications of the Scrum DAO concept. These applications include:
+An alternative to ICOs ICOs have created the false narrative that millions of dollars in crowdfunding is required to successfully implement a project. There are however numerous open source projects that exist and grow without the need for an unnecessary influx of investor funding.
+By implementing and incentivized and collaborator project development framework, the Scrum DAO is better able to get investors to become involved in the development process.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://devorchestra.github.io/the-scrum-dao-site/post/gas-price/</link>
-      <pubDate>Wed, 29 Nov 2017 14:17:43 +0300</pubDate>
+      <link>https://devorchestra.github.io/the-scrum-dao-site/post/conclusion/</link>
+      <pubDate>Wed, 22 Nov 2017 21:16:17 +0300</pubDate>
       
-      <guid>https://devorchestra.github.io/the-scrum-dao-site/post/gas-price/</guid>
-      <description>Gas price &amp;nbsp;
-Deploy Contract price    Method Gas     crowdsale 1716665   migrations 269607   planningPoker 1613396   productBacklog 1398455   project 3001382   Total amount ~8*10^6    &amp;nbsp;
-Project Contract price    Method Info Gas     addTrustedOracle  43437   addWorker Add first worker 106889   addWorker Add not first worker 91889   initCrowdsale First call 63814   initCrowdsale Not first call 33814   initPlanningPoker  43965   payAward  80881   transfer &amp;amp;&amp;amp; addHolder Add first holder 93010   transfer &amp;amp;&amp;amp; addHolder Add not first holder 78010   transfer Recipient is a holder 37031    &amp;nbsp;</description>
+      <guid>https://devorchestra.github.io/the-scrum-dao-site/post/conclusion/</guid>
+      <description>Conclusion In terms of the roadmap, the Scrum DAO has no rigidly predetermined roadmap. After the beta release, the power to decide the features to be developed next will be delegated to the community. Members wishing to vote on issues can visit our backlog which can be found here. Members can also add new issues to the backlog. Some of the features that we are interested in developing are as follows:</description>
     </item>
     
   </channel>
